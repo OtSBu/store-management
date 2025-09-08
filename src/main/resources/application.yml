@@ -2,13 +2,13 @@ server:
   port: 8090
 
 spring:
+  application:
+    name: Store App
   sql:
     init:
       mode: always
       schema-locations: classpath:schema.sql
       data-locations: classpath:data.sql
-  application:
-    name: Store App
   datasource:
     url: jdbc:h2:~/test
     driverClassName: org.h2.Driver

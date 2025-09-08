@@ -10,7 +10,7 @@ Spring Data JPA
 H2 
 Spring Security
 Lombok
-I could user MapStruct but I picked the traditional approch for a better control and transparency
+I could use MapStruct, but I chose the traditional approach for better control and transparency.
 
 Some features
 Product CRUD (Create, Read, Update, Delete)
